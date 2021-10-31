@@ -9,9 +9,6 @@ bot = commands.Bot(command_prefix="!", case_insensitive=True)
 async def on_ready():
     print("Connected.")
 
-numbersToSearch = [545, 514, 462, 461, 460, 459, 458, 457, 456, 455, 454, 453, 452, 451, 450, 449, 448, 447, 446, 444, 443, 442, 441, 440, 439,
-                   438, 437, 436, 435, 434, 433, 432, 431, 430, 429, 427, 426, 425, 423, 422, 421, 420, 419, 418, 417, 416, 415, 413, 261, 96, 74, 55, 52, 46, 23]
-
 global howthebotisdoing
 howthebotisdoing = True
 
